@@ -12,7 +12,7 @@ makeCacheMatrix <- function(x = matrix()) {
     # alter the matrix to the new state
     x <<- y
     # reset the inverse to null when matrix is altered
-    inv <<- NULL 
+    inverse <<- NULL 
   }
   # return the matrix
   get <- function() x 
